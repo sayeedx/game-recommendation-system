@@ -1,26 +1,58 @@
-🎮 AI-Driven Game Recommendation System
-This project is an AI-driven game recommendation system developed for the McHacks hackathon. It uses the Steam Web API to get user gameplay data and applies personalization algorithms to recommend games based on user preferences and their history.
+<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
 
-✨ Features
-Dynamic Data Fetching: Retrieves real-time user gameplay information from the Steam Web API.
+    <!-- Project Title Section -->
+    <h1 style="border-bottom: 2px solid #eaeaea; padding-bottom: 10px; color: #007bff;">
+        <span style="font-size: 2em;">🎮</span> <strong>AI-Driven Game Recommendation System</strong>
+    </h1>
+    <p>
+        This project is an <strong>AI-driven game recommendation system</strong> developed for the McHacks hackathon. The system leverages <strong>Steam's Web API</strong> to dynamically fetch user gameplay data and applies personalization algorithms to deliver tailored game suggestions based on user preferences and interaction history.
+    </p>
 
-Personalized Recommendations: Uses machine learning to generate tailored game suggestions.
+    <hr style="border: 0; height: 1px; background: #ccc; margin: 20px 0;">
 
-User-Friendly Interface: A simple web interface built with Flask to display the recommendations.
+    <!-- Features Section -->
+    <h3 style="color: #4a4a4a;">
+        <span style="font-size: 1.5em;">✨</span> <strong>Key Features</strong>
+    </h3>
+    <ul>
+        <li><b>Dynamic Data Integration</b>: Utilizes the Steam Web API to retrieve real-time user gameplay information.</li>
+        <li><b>Personalized Recommendations</b>: Employs machine learning models to generate game suggestions uniquely tailored to each user.</li>
+        <li><b>Intuitive User Interface</b>: A simple web interface, built with <b>Flask</b>, to present recommendations in a clear and organized manner.</li>
+    </ul>
 
-💻 Technologies Used
-Python: The core language for the project.
+    <hr style="border: 0; height: 1px; background: #ccc; margin: 20px 0;">
 
-Pandas & Numpy: For data manipulation.
+    <!-- Technologies Section -->
+    <h3 style="color: #4a4a4a;">
+        <span style="font-size: 1.5em;">💻</span> <strong>Technologies & Tools</strong>
+    </h3>
+    <ul>
+        <li><b>Python</b>: The core programming language for the project.</li>
+        <li><b>Pandas</b> & <b>Numpy</b>: Used for efficient data manipulation and numerical operations.</li>
+        <li><b>Scikit-learn</b>: For implementing the underlying machine learning models and algorithms.</li>
+        <li><b>Flask</b>: The web framework used to build the application's front-end.</li>
+        <li><b>Steam Web API</b>: The primary source for user gameplay data.</li>
+    </ul>
 
-Scikit-learn: For machine learning models.
+    <hr style="border: 0; height: 1px; background: #ccc; margin: 20px 0;">
 
-Flask: To create the web application.
+    <!-- Demo Images Section -->
+    <h3 style="color: #4a4a4a;">
+        <span style="font-size: 1.5em;">📸</span> <strong>Project Demonstration</strong>
+    </h3>
+    <p>
+        Here are some screenshots demonstrating the system in action. The images are located in the <code>demo_images/</code> directory.
+    </p>
 
-Steam Web API: For fetching user gameplay data.
+    <br>
 
-📸 Demo Images
-Here are some screenshots of the project in action:
+    <img src="demo_images/1749723543198.jpg" alt="The main page of the recommendation system, ready for user input." style="width: 100%; max-width: 600px; height: auto; display: block; margin-bottom: 20px; border-radius: 8px;">
+
+    <img src="demo_images/1749723543198.jpg" alt="A screenshot showing a list of games recommended by the system for a specific user." style="width: 100%; max-width: 600px; height: auto; display: block; margin-bottom: 20px; border-radius: 8px;">
+
+    <img src="demo_images/1749723401289.jpg" alt="A demonstration of the recommendation process and how the results are displayed." style="width: 100%; max-width: 600px; height: auto; display: block; border-radius: 8px;">
+
+</div>
 
 <br>
 <img src="demo_images/1749723543198.jpg" alt="Screenshot of the recommendation generation process" width="600">
