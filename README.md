@@ -23,7 +23,6 @@ Steam Web API: For fetching user gameplay data.
 Here are some screenshots of the project in action:
 
 <br>
-
-<img src="demo_images/1749723401289.jpg" alt="Screenshot of the game recommendation system's home page" width="600">
-<img src="demo_images/1749723366050.jpg" alt="Screenshot showing game recommendations for a user" width="600">
 <img src="demo_images/1749723543198.jpg" alt="Screenshot of the recommendation generation process" width="600">
+<img src="demo_images/1749723366050.jpg" alt="Screenshot showing game recommendations for a user" width="600">
+<img src="demo_images/1749723401289.jpg" alt="Screenshot of the game recommendation system's home page" width="600">
